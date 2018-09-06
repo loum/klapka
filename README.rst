@@ -27,23 +27,3 @@ Run the tests to make sure all is OK::
 
     $ source 2env/bin/activate
     (2env) $ make tests
-
-***********************
-Build the Documentation
-***********************
-Project documentation is self contained under the ``doc/out``
-directory.  To build the documentation locally::
-
-    $ make docs
-
-The project comes with a simple web server that allows you to present the
-docs from within your own environment::
-
-    $ cd doc/out
-    $ ./http_server.py
-
-Note: The web server will block your CLI and all activity will be logged
-to the console.  To end serving pages, just ``Ctrl-C``.
-    
-To view pages, open up a web browser and navigate to
-``http://<your_server_IP>:8888``
