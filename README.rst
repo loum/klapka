@@ -14,16 +14,16 @@ If you have Python 3 available then to build the virtual environment::
     $ cd klapka
     $ make init APP_ENV=dev
     
-Run the tests to make sure all is OK::
+Source the Python 3 environment::
 
     $ source 3env/bin/activate
-    (3env) $ make tests
+    (3env) $
 
 For Python 2 you will need ``virtualenv``.  Similarly::
 
     $ make init PYVERSION=2 APP_ENV=dev
     
-Run the tests to make sure all is OK::
+Source the Python 2 environment::
 
     $ source 2env/bin/activate
-    (2env) $ make tests
+    (2env) $
